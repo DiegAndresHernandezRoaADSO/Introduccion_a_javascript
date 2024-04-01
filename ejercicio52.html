@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Calcular el pago de un empleado por medio de las horas trabajadas</h1>
+
+  <form>
+    <label for="horas">Horas trabajadas</label><br><br>
+    <input type="number" id="horas" placeholder="Ingrese las horas trabajadas"><br><br>
+
+    <label for="tipoempleado">Tipo de empleado</label>
+    <select id="tipoempleado">
+      <option value="planta">Planta</option>
+      <option value="administrativo">Administrativo</option>
+    </select><br><br>
+
+    <button type="button" onclick="calcularPago()">Calcular</button>
+
+    <div id="resultado"></div>
+  </form>
+
+  <script src="ejercicio52.js"></script>
+
+</body>
+
+</html>
