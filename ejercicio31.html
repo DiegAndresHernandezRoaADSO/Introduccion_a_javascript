@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form id="distanciaForm">
+    <label for="x1">Coordenada x del punto 1:</label><br><br>
+    <input type="number" id="x1" name="x1" required><br>
+    <label for="y1">Coordenada y del punto 1:</label><br>
+    <input type="number" id="y1" name="y1" required><br>
+    <label for="x2">Coordenada x del punto 2:</label><br>
+    <input type="number" id="x2" name="x2" required><br>
+    <label for="y2">Coordenada y del punto 2:</label><br>
+    <input type="number" id="y2" name="y2" required><br><br>
+    <button type="button" onclick="calcularDistancia()">Calcular Distancia</button>
+    <!-- El nombre de la función debe coincidir con la función en el script -->
+  </form>
+  <p id="resultado"></p>
+  <script src="ejercicio31.js"></script>
+</body>
+
+</html>
