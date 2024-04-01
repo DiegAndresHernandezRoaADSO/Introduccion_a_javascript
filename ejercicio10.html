@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="ejercicio9.js"></script>
+</head>
+
+<body>
+  <h1>Pizzería </h1>
+  <p>Selecciona el tipo de pizza que desea llevar:</p>
+  <button onclick="tipodepizza('vegetariana')">Pizza Vegetariana</button>
+  <button onclick="tipodepizza('no vegetariana')">Pizza No Vegetariana</button>
+
+  <div id="ingredientes" style="display:none;">
+    <h2>Seleccione un ingrediente adicional:</h2>
+    <select id="listaIngredientes">
+    </select>
+    <button onclick="confirmarPizza()">Confirmar</button>
+  </div>
+
+  <div id="resultado" style="display:none;"></div>
+</body>
+
+</html>
