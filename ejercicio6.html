@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="ejercicio6.js"></script>
+</head>
+
+<body>
+
+  <h2>Asignación de Grupos</h2>
+  <form id="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" name="sexo">
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+    </select><br><br>
+    <button type="button" onclick="determinarGrupo()">Determinar Grupo</button>
+  </form>
+  <p id="resultado"></p>
+</body>
+
+</html>
