@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Tiempo de Llenado</title>
+</head>
+
+<body>
+
+  <h2>Calculadora de Tiempo de Llenado de Depósito</h2>
+
+  <form id="form">
+    <label for="radius">Radio del depósito (metros):</label>
+    <input type="number" id="radius" step="any" required><br><br>
+
+    <label for="height">Altura del depósito (metros):</label>
+    <input type="number" id="height" step="any" required><br><br>
+
+    <label for="flowRate">Caudal de llenado (m³/s):</label>
+    <input type="number" id="flowRate" step="any" required><br><br>
+
+    <button type="button" onclick="calcularTiempo()">Calcular</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <script src="ejercicio34.js"></script>
+</body>
+
+</html>
